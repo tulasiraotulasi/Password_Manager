@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.listClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 13vw;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+}
+.listInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  background-color: #14b8a6;
+  border-radius: 20px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn2 {
+  background-color: transparent;
+  border: none;
+}
+.delIcon {
+  width: 2vw;
+}
+.passCode {
+  width: 5vw;
+}
